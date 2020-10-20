@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    
+    
+    <div class="container">
+        <!--Consigna-->
+        <div class="jumbotron">
+            <h1 class="display-4">Grupo 2 | Actividad 8</h1>
+            <p class="lead">realizar una página web que solicite el ingreso de un número y, si el número leído es par, imprima la leyenda “El número [XXXX] es PAR”. En caso contrario, deberá mostrar el texto “El numero [XXXX] es IMPAR"</p>
+            
+        </div>
+       
+        <!--Formulario para ingresar el numero-->
+        <div class="card">
+        <div class="card-body">
+            <form action="funcion.php" name="formulario" method= "POST">
+               
+                <div class="form-group">
+                    <label>Número a Ingresar</label>
+                    <input type="number" class="form-control" name="primero">
+                </div>
+               
+                <button type="submit" class="btn btn-primary">Realizar operación</button>
+                <button type="reset" class="btn btn-primary">Reset</button>            
+            
+            </form>
+        
+        </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
